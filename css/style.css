@@ -1,8 +1,4 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
+@import url('style.css');
 .container{
     width: 80%;
     margin: 0 auto;
@@ -13,9 +9,11 @@
     text-align: center;
 }
 img{
+    display: inline;
+    vertical-align: middle;
     width: 250px;
 }
+
 ul{
-    list-style: none;
     padding: 1%;
 }
