@@ -22,3 +22,13 @@ button, a{
     background-color: transparent;
     border: 0;
 }
+ul{
+    list-style: none;
+}
+img{
+    display: inline;
+    vertical-align: middle;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

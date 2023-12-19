@@ -1,4 +1,9 @@
+import { time } from "./date.js";
+
 document.addEventListener("DOMContentLoaded",e =>{
+    console.log(time.dates+'\n'+time.el.innerText)
+    time.printOut()
+
     let xml, xmlhttp, xmlDoc, vliste
 
     xmlhttp = new XMLHttpRequest();
@@ -23,13 +28,19 @@ document.addEventListener("DOMContentLoaded",e =>{
     
         //ajout de chaque propriété dans boucle
                 console.log(image+""+nom+" "+mandat+" "+naissance+" "+status+" ");
-                    vliste += `<li><img src="${image}"</li>`;
-                    vliste += "<li>Nom : "+nom+"</li>";
-                    vliste += "<li>Mandat : "+mandat+"</li>";
-                    vliste += "<li>Naissance : "+naissance+"</li>";
-                    vliste += "<li>status : "+status+"</li>";
+                    vliste += `<li>
+                    <figure>
+                    <img src=${image}>
+                    <figcpation>
+                    <li><strong>Nom :</strong> ${nom} </li>
+                    <li><strong>Mandat :</strong> ${mandat}</li>
+                    <li><strong>Naissance :</strong> ${naissance}</li>
+                    <li><strong>status :</strong> ${status}</li>
+                    <figcpation>
+                    </figure>
+                    </li>`;
                 //stockage dans un tableau
-                    myStock=[];
+                    let myStock=[];
                     myStock.push(image,nom,mandat,naissance,status);
                     console.log(JSON.stringify(myStock));
                     localStorage.setItem("stock", myStock)

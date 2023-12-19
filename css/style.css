@@ -1,19 +1,53 @@
-@import url('style.css');
-.container{
-    width: 80%;
-    margin: 0 auto;
-    padding: 1%;
-    border: 1px solid black;
+@import url('./reset.css');
+:root{
+    --bgcolors_all : #2d3436;
+    --color-text-header: #fff;
 }
-.text_center{
+header h1{
+    line-height: 6.0rem;
     text-align: center;
+    color: var(--color-text-header);
+    margin-bottom: 5rem;
+    padding: 1rem 0;
+    background-color: var(--bgcolors_all);
 }
-img{
-    display: inline;
-    vertical-align: middle;
-    width: 250px;
+ul.primary_grid{
+    display: grid;
+    max-width: 100rem;
+    margin: 0 auto;
+    grid-template-columns: repeat(4,1fr);
+    gap: 1rem;
+    padding: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 2rem var(--bgcolors_all);
 }
+div ul li img{
+    width: 23rem;
+    height: 30rem;
+}
+footer{
+text-align: center;
+padding: 1%;
+}
+/* media query */
+@media screen and (max-width: 80rem){
 
-ul{
-    padding: 1%;
+    ul.primary_grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+    header h1{
+        font-size: 1.6rem;
+        margin: 0;
+    }  
+}
+@media screen and (orientation: landscape){
+    ul.primary_grid{
+        grid-template-columns: repeat(4,1fr);
+    }
+    header h1{
+        font-size: inherit;
+        margin: 0;
+    }  
+    
+  
 }

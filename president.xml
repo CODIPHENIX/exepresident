@@ -33,4 +33,36 @@
 <status> 1996</status>
 </president>
 
+<president>
+<image path="asset/François_Mitterand.jpeg"/>
+<nom>Jacques Chirac</nom>
+<mandat>1995-2007</mandat>
+<naissance>1932</naissance>
+<status>201</status>
+</president>
+
+<president>
+<image path="asset/Nicolas_Sarkozy.jpeg"/>
+<nom>Nicolas Sarkozy</nom>
+<mandat>2012-2017</mandat>
+<naissance>1955</naissance>
+<status>vivant</status>
+</president>
+
+<president>
+<image path="asset/François_Hollande.jpeg"/>
+<nom> François Hollande</nom>
+<mandat>2012-2017</mandat>
+<naissance>1954</naissance>
+<status>vivant</status>
+</president>
+
+<president>
+<image path="asset/Emmanuel_Macron.jpeg"/>
+<nom> Emmanuel Macron</nom>
+<mandat>2017-aujourd'hui</mandat>
+<naissance>1976</naissance>
+<status>Trop jeune</status>
+</president>
+
 </racine>
