@@ -1,0 +1,60 @@
+{
+    "president":[
+        {
+            "image":"asset/Charles_de_Gaulles.jpeg",
+            "nom" :"Charles de Gaulles",
+            "mandat":"1959-1969",
+            "naissance": "1890",
+            "status": "1970"
+        },
+        {
+            "image":"asset/George_Pompidou.jpeg",
+            "nom":"George Pompidous",
+            "mandat": "1959-1969",
+            "naissance":"1911",
+            "status":"1974"
+        },
+        {
+            "image":"asset/Valérie_Giscard_Estaing.jpeg",
+            "nom":"Valérie Giscard Estaing",
+            "mandat":"1974-1981",
+            "naissance":"1926",
+            "status":"1970"
+        },
+        {
+            "image":"asset/François_Mitterand.jpeg",
+            "nom":"François Mitterand",
+            "mandat":" 1981-1995",
+            "naissance":"1916",
+            "status":"1996"
+        },
+        {
+            "image":"asset/François_Mitterand.jpeg",
+            "nom":"Jacques Chirac",
+            "mandat":"1995-2007",
+            "naissance":"1932",
+            "status":"201"
+        },
+        {
+            "image":"asset/Nicolas_Sarkozy.jpeg",
+            "nom":"Nicolas Sarkozy",
+            "mandat":"2012-2017",
+            "naissance":"1955",
+            "status":"vivant"
+        },
+        {
+            "image":"asset/François_Hollande.jpeg",
+            "nom":"François Hollande",
+            "mandat":"2012-2017",
+            "naissance":"1954",
+            "status":"vivant"
+        },
+        {
+            "image":"asset/Emmanuel_Macron.jpeg",
+            "nom":"Emmanuel Macron",
+            "mandat":"2017-aujourd'hui",
+            "naissance":"1976",
+            "status":"Trop jeune"
+        }
+    ]
+}
