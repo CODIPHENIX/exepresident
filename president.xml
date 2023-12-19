@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<racine>
+
+<president>
+<image path="asset/Charles_de_Gaulles.jpeg"/>
+<nom>Charles de Gaulles</nom>
+<mandat> 1959-1969</mandat>
+<naissance>1890</naissance>
+<status>1970</status>
+</president>
+
+<president>
+<image path="asset/George_Pompidou.jpeg"/>
+<nom> George Pompidous</nom>
+<mandat> 1959-1969</mandat>
+<naissance> 1911</naissance>
+<status>1974</status>
+</president>
+
+<president>
+<image path="asset/Valérie_Giscard_Estaing.jpeg"/>
+<nom>Valérie Giscard Estaing</nom>
+<mandat>1974-1981</mandat>
+<naissance> 1926</naissance>
+<status>1970</status>
+</president>
+
+<president>
+<image path="asset/François_Mitterand.jpeg"/>
+<nom>François Mitterand</nom>
+<mandat> 1981-1995</mandat>
+<naissance>1916</naissance>
+<status> 1996</status>
+</president>
+
+</racine>
